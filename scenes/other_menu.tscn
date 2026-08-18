@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://3q5uxw8wkxys"]
+
+[ext_resource type="FontFile" uid="uid://nsl3ijfd4do8" path="res://Odin Rounded - Bold.otf" id="2_nlerj"]
+
+[node name="OtherMenu" type="Control" unique_id=842147206]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MarginDelete" type="MarginContainer" parent="." unique_id=637598783]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.5
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="ButtonDelete" type="Button" parent="MarginDelete" unique_id=1785348359]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("2_nlerj")
+theme_override_font_sizes/font_size = 20
+text = "delete
+most
+recent"
+
+[node name="MarginView" type="MarginContainer" parent="." unique_id=749010714]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="ButtonView" type="Button" parent="MarginView" unique_id=369508071]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("2_nlerj")
+theme_override_font_sizes/font_size = 20
+text = "view
+positions"
+
+[connection signal="pressed" from="MarginDelete/ButtonDelete" to="." method="_on_button_left_leg_pressed"]
+[connection signal="pressed" from="MarginView/ButtonView" to="." method="_on_button_right_leg_pressed"]
