@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://3q5uxw8wkxys"]
 
+[ext_resource type="Script" uid="uid://bmsdw0f2j6xnq" path="res://scripts/other_menu.gd" id="1_6m1em"]
 [ext_resource type="FontFile" uid="uid://nsl3ijfd4do8" path="res://Odin Rounded - Bold.otf" id="2_nlerj"]
 
 [node name="OtherMenu" type="Control" unique_id=842147206]
@@ -11,6 +12,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_6m1em")
 
 [node name="MarginBack" type="MarginContainer" parent="." unique_id=297393535]
 layout_mode = 1
@@ -68,6 +70,4 @@ theme_override_font_sizes/font_size = 20
 text = "view
 positions"
 
-[connection signal="pressed" from="MarginBack/ButtonBack" to="." method="_on_button_left_leg_pressed"]
-[connection signal="pressed" from="MarginDelete/ButtonDelete" to="." method="_on_button_left_leg_pressed"]
-[connection signal="pressed" from="MarginView/ButtonView" to="." method="_on_button_right_leg_pressed"]
+[connection signal="pressed" from="MarginBack/ButtonBack" to="." method="_on_button_back_pressed"]

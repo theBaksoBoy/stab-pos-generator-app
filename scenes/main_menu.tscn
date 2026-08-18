@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://hwfvbv242554"]
 
+[ext_resource type="Script" uid="uid://ds8pqor0x1njh" path="res://scripts/main_menu.gd" id="1_ekxnf"]
 [ext_resource type="FontFile" uid="uid://nsl3ijfd4do8" path="res://Odin Rounded - Bold.otf" id="1_l6cm7"]
 
 [node name="MainMenu" type="Control" unique_id=842147206]
@@ -11,6 +12,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("1_ekxnf")
 
 [node name="MarginOther" type="MarginContainer" parent="." unique_id=637598783]
 layout_mode = 1
@@ -66,3 +68,5 @@ theme_override_fonts/font = ExtResource("1_l6cm7")
 theme_override_font_sizes/font_size = 20
 text = "generate
 stomach"
+
+[connection signal="pressed" from="MarginOther/ButtonOther" to="." method="_on_button_other_pressed"]

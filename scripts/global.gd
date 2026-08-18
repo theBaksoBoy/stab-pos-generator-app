@@ -1,6 +1,10 @@
 extends Node
 
 
+var main_menu_scene: PackedScene = preload("res://scenes/main_menu.tscn")
+var other_menu_scene: PackedScene = preload("res://scenes/other_menu.tscn")
+
+
 enum BodyParts {
 	STOMACH,
 	LEFT_LEG,
