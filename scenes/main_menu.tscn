@@ -44,8 +44,9 @@ theme_override_constants/margin_bottom = 5
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_fonts/font = ExtResource("1_l6cm7")
-theme_override_font_sizes/font_size = 25
-text = "leg"
+theme_override_font_sizes/font_size = 20
+text = "generate
+leg"
 
 [node name="MarginStomach" type="MarginContainer" parent="." unique_id=2022409806]
 layout_mode = 1
@@ -62,5 +63,6 @@ theme_override_constants/margin_bottom = 5
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_fonts/font = ExtResource("1_l6cm7")
-theme_override_font_sizes/font_size = 25
-text = "stomach"
+theme_override_font_sizes/font_size = 20
+text = "generate
+stomach"
