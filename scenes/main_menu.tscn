@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://hwfvbv242554"]
+
+[ext_resource type="FontFile" uid="uid://nsl3ijfd4do8" path="res://Odin Rounded - Bold.otf" id="1_l6cm7"]
+
+[node name="MainMenu" type="Control" unique_id=842147206]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MarginOther" type="MarginContainer" parent="." unique_id=637598783]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.333
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="ButtonOther" type="Button" parent="MarginOther" unique_id=1785348359]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_l6cm7")
+theme_override_font_sizes/font_size = 25
+text = "other"
+
+[node name="MarginLeg" type="MarginContainer" parent="." unique_id=749010714]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.333
+anchor_right = 1.0
+anchor_bottom = 0.667
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="ButtonLeg" type="Button" parent="MarginLeg" unique_id=369508071]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_l6cm7")
+theme_override_font_sizes/font_size = 25
+text = "leg"
+
+[node name="MarginStomach" type="MarginContainer" parent="." unique_id=2022409806]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.667
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="ButtonStomach" type="Button" parent="MarginStomach" unique_id=1573809519]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_l6cm7")
+theme_override_font_sizes/font_size = 25
+text = "stomach"
