@@ -70,3 +70,5 @@ text = "generate
 stomach"
 
 [connection signal="pressed" from="MarginOther/ButtonOther" to="." method="_on_button_other_pressed"]
+[connection signal="pressed" from="MarginLeg/ButtonLeg" to="." method="_on_button_leg_pressed"]
+[connection signal="pressed" from="MarginStomach/ButtonStomach" to="." method="_on_button_stomach_pressed"]

@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dx4bk56oitghr"]
+
+[ext_resource type="Texture2D" uid="uid://cc8i82543ktlj" path="res://textures/previous_position.png" id="1_on7f8"]
+[ext_resource type="Texture2D" uid="uid://c7npmhgnhvy1s" path="res://textures/stab_position.png" id="2_p77kq"]
+
+[node name="PositionMarker" type="Control" unique_id=1172796381]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="PreviousPosition" type="TextureRect" parent="." unique_id=1949380639]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+offset_transform_enabled = true
+offset_transform_position_ratio = Vector2(-0.5, -0.5)
+offset_transform_scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_on7f8")
+expand_mode = 2
+
+[node name="StabPosition" type="TextureRect" parent="." unique_id=132556361]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+offset_transform_enabled = true
+offset_transform_position_ratio = Vector2(-0.5, -0.5)
+offset_transform_scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_p77kq")
+expand_mode = 2

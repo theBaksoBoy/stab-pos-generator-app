@@ -12,7 +12,6 @@ enum BodyParts {
 	STOMACH,
 	LEFT_LEG,
 	RIGHT_LEG,
-	AUTO_LEG,
 }
 
 

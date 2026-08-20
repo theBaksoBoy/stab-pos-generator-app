@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://hwfvbv242554" path="res://scenes/main_menu.tscn" id="1_xd2v3"]
 [ext_resource type="PackedScene" uid="uid://dn1p38mijxtlq" path="res://scenes/position_display.tscn" id="2_luhjo"]
+[ext_resource type="PackedScene" uid="uid://dx4bk56oitghr" path="res://scenes/position_marker.tscn" id="3_ynkwh"]
 
 [node name="main_parent" type="Control" unique_id=2106651228]
 layout_mode = 3
@@ -19,3 +20,10 @@ layout_mode = 1
 
 [node name="PositionDisplay" parent="." unique_id=116428709 instance=ExtResource("2_luhjo")]
 layout_mode = 1
+
+[node name="PositionMarker" parent="." unique_id=1172796381 instance=ExtResource("3_ynkwh")]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 151.0
+offset_right = 47.0
+offset_bottom = 151.0
