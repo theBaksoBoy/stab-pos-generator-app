@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://clxit3o4j2ndq"]
 
 [ext_resource type="PackedScene" uid="uid://hwfvbv242554" path="res://scenes/main_menu.tscn" id="1_xd2v3"]
+[ext_resource type="PackedScene" uid="uid://dn1p38mijxtlq" path="res://scenes/position_display.tscn" id="2_luhjo"]
 
 [node name="main_parent" type="Control" unique_id=2106651228]
 layout_mode = 3
@@ -14,4 +15,7 @@ size_flags_vertical = 3
 
 [node name="MainMenu" parent="." unique_id=842147206 instance=ExtResource("1_xd2v3")]
 unique_name_in_owner = true
+layout_mode = 1
+
+[node name="PositionDisplay" parent="." unique_id=116428709 instance=ExtResource("2_luhjo")]
 layout_mode = 1
