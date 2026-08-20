@@ -5,6 +5,7 @@ var main_menu_scene: PackedScene = preload("res://scenes/main_menu.tscn")
 var other_menu_scene: PackedScene = preload("res://scenes/other_menu.tscn")
 
 var position_display_scene: PackedScene = preload("res://scenes/position_display.tscn")
+var position_marker_scene: PackedScene = preload("res://scenes/position_marker.tscn")
 
 
 
