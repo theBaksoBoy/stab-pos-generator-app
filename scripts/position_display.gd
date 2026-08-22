@@ -31,7 +31,7 @@ func _ready() -> void:
 		add_child(instance)
 
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	
 	var window_size: Vector2 = get_viewport().get_visible_rect().size
 	
